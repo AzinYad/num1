@@ -1,0 +1,40 @@
+body{
+  background-color:#d4a879;
+  color:black;
+  font-family: 'Lobster', cursive;
+  background-image: url()
+}
+form{
+  background-color:#c7945e;
+  padding:45px 100px 100px 70px;
+  margin-left:220px;
+  margin-right:220px;
+  margin-bottom:150px;
+  border-radius:30px;
+}
+#title{
+  margin-top:50px;
+  font-size:50px;
+  text-align:center;
+}
+#description{
+  font-size:30px;
+  text-align:center;
+}
+header{
+  background-color: ;
+  width:;
+}
+.form-group{
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  font-size:20px;
+}
+p{
+  font-size: 25px;
+}
+.form-check{
+  margin-left:5px;
+  font-size:20px;
+}

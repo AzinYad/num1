@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<div class="container">
+  <header>
+    <h1 id="title"> Treasure Treat Botique</h1>
+    <p id="description"> Thank You For Helping Us To Improve Our Shop </p>
+  </header>
+</div>
+<form action="" id="survey-form">
+
+  <div class="form-group">
+    <label for="name" id="name-label"><strong>Name:</strong></label>
+    <input type="text" id="name" class="form-control" placeholder="Enter Your Full Name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email" id="email-label"><strong>Email:</strong></label>
+    <input type="email" id="email" class="form-control" placeholder="Enter Your Email Address" required>
+  </div>
+  <div class="form-group">
+    <label for="number" id="number-label"><strong>Age:</strong></label>
+    <input type="number" id="number" class="form-control" min="10" max="100" placeholder="Age" required>
+  </div><br>
+
+  <div class="form-group">
+    <p>Which Best Describes Your Interest?</p>
+
+    <select name="intrest" id="dropdown" class="form-control" required>
+      <option disabled selected value>Please Select One</option>
+      <option value="gift">Buy Gifts</option>
+      <option value="personal">Add To Personal Collection</option>
+      <option value="other">Other</option>
+    </select><br>
+  </div>
+
+  <div class="form-check">
+    <p> Would You Recommend Us To Your Friends?</p>
+    <label>
+      <input type="radio" name="user-recommend" value="sure" class="form-check-input" checked>Sure
+    </label>
+  </div>
+
+  <div class="form-check">
+    <label>
+      <input type="radio" name="user-recommend" value="maybe" class="form-check-input">Maybe
+    </label>
+  </div>
+  <div class="form-check">
+    <label>
+      <input type="radio" name="user-recommend" value="never" class="form-check-input">Never
+    </label>
+  </div><br>
+
+  <div class="form-group">
+    <p>What Would You Like To See More In Store?</p>
+    <label>
+      <input type="checkbox" name="homedecor" value="antique" class="form-check-input">Home Decor
+    </label><br>
+    <label>
+      <input type="checkbox" name="officedecor" value="antique" class="form-check-input">Office Decor
+    </label><br>
+    <label>
+      <input type="checkbox" name="modelcars" value="antique" class="form-check-input">Model Cars
+    </label><br>
+    <label>
+      <input type="checkbox" name="miniatures" value="antique" class="form-check-input">Miniatures
+    </label><br>
+    <label>
+      <input type="checkbox" name="tableware" value="antique" class="form-check-input">Tableware
+    </label><br>
+    <label>
+      <input type="checkbox" name="jewellery" value="antique" class="form-check-input">Jewellery
+    </label>
+  </div>
+
+  <div class="form-group">
+    <p>Let Us Know If You Have Any Suggestions</p>
+    <textarea name="suggestions" id="suggestions" class="form-control">
+
+   </textarea><br>
+    <button type="submit" id="submit" class="form-control">Submit</button>
+  </div>
+
+</form>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
